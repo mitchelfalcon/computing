@@ -1,0 +1,60 @@
+<div class="modal fade" id="ajax-file-download" tabindex="-1" role="dialog" aria-labelledby="ajax-file-download">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<div class="download-description">
+					<h4>
+						Get Cuda - HTML (Free!)					</h4>
+					<p>Fill up the short form with your email ID and get the product instantly. Don't be hesitated. We don't send any unnecessary email to you.</p>
+				</div><!-- /.download-description -->
+				<form id="file-download-req-form" action="//www.codexcoder.com/wp-admin/admin-ajax.php" method="post">
+					<input type="hidden" name="action" id="ajax-download-action" value="cdr_subscribe_and_download">
+					<input type="hidden" name="key" id="ajax-download-key" value="vx7hhyrlk9ugaq2">
+					<input type="hidden" name="id" id="ajax-download-id" value="144185">
+						
+					<div class="make-col">
+						<input name="fname" type="text" id="ajax-download-fname" placeholder="First Name" required>
+					</div><!-- /.make-col -->
+					
+					<div class="make-col">
+						<input name="lname" type="text" id="ajax-download-lname" placeholder="Last Name" required>
+					</div><!-- /.make-col -->
+
+					<div class="clearfix"></div>
+
+					<div class="make-single">
+						<input name="email" type="email" id="ajax-download-email" placeholder="johnsmith@gmail.com" required>
+					</div><!-- /.make-single -->
+					
+					<div class="make-col">
+						<input type="submit" name="submit" id="ajax-download-submit" cLass="btn btn-primary">
+					</div><!-- /.make-col -->
+					<div class="make-col">
+						<input type="checkbox" name="subscribe" id="ajax-download-subscribe" checked="checked"> Subscribe to our newsletter					</div><!-- /.make-col -->
+
+					<div class="clearfix"></div>
+				</form><!-- /#file-download-req-form -->
+
+				<div class="download-tos-policy">
+					By Clicking on Submit button you agree to our <a href="https://www.codexcoder.com/terms-and-condition/">Terms and Conditions</a> and our <a href="https://www.codexcoder.com/privacy-policy/">Privacy Policy</a>				</div><!-- /.download-tos-policy -->
+
+				<div id="cdr-download-loader">
+					<div class="load-bar">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div><!-- /#cdr-response -->
+				<div id="cdr-download-response"></div><!-- /#cdr-response -->
+
+			</div><!-- /.modal-body -->
+
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /#ajax-file-download -->
+				</main><!-- #main -->
+	</div><!-- #primary -->
