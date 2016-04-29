@@ -1,0 +1,19 @@
+Apr 29 10:15:26.840 [359010] warn: config: created user preferences file: /home/mitchelfalcon/.spamassassin/user_prefs
+
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+
+	a2plcpnl0618.prod.iad2.secureserver.net
+
+X-Spam-Level: ****
+
+X-Spam-Status: No, score=4.5 required=5.0 tests=MISSING_DATE,MISSING_HEADERS,
+
+	MISSING_MID,MISSING_SUBJECT,NO_HEADERS_MESSAGE,NO_RECEIVED,NO_RELAYS
+
+	shortcircuit=no autolearn=no autolearn_force=no version=3.4.0
+
+From: "Apache SpamAssassin" <cpanel@localhost>
+
+
+
+Apache SpamAssassin™ has been enabled on this account.
